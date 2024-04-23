@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-size: 1.2vw;
+}
+.nav-bar{
+    background-color: rgba(117, 0, 0, 0.827);
+    height: 3rem;
+    width: 100%;
+}
+.nav-bar li{
+    list-style: none;
+    text-align: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(255, 232, 182);
+    font-size: 1rem;
+    display: block;
+    padding: 0.9rem;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar li:hover{
+    background-color: rgb(200, 52, 52);
+    align-items: center;
+    overflow: hidden;
+}
+
+.pizza_img{
+    position: absolute;
+    width: 30rem;
+    margin-left: 60%;
+   top: 3rem;
+}
+.welcome_txt{
+    margin: 3em;
+    font-size: 2rem;
+}
+.chizza{
+    font-size: 2.4em;
+    color: rgba(255, 157, 0, 0.818);
+}
+.welcome_msg{
+    margin: 0em 0em 0em 3em;
+    text-align: center;
+    width: 80%;
+    font-size: 2.5rem;
+}
+.get_started{
+    margin: 2rem 1rem 1rem 38rem;
+}
+.get_started button{
+    width: 10rem;
+    height: 2rem;
+    background-color: rgba(255, 255, 0, 0.586);
+    border: inherit;
+    border-radius: 3.4rem;
+    font-size: 0.7rem;
+
+}
+.get_started button:hover{
+    background-color: yellow;
+}
+
+.cart img{
+
+    width: 3rem;
+
+}
+.cart_value{
+    position: absolute;
+    top: 43.3rem;
+    left: 1.4rem;
+}
+
+.mouse_over{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#mode{
+    font-size: 3rem;
+}
+
+.darkMode{
+    background-color: black;
+    color:white;
+}
+.whiteMode{
+    background-color: white;
+    color: black;
+}
